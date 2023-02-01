@@ -13,3 +13,6 @@ javascript:(function()%7Bfunction%20callback()%7B(function(%24)%7Bvar%20jQuery%3
 
 ## Version 0.03.1:
 javascript:(function()%7Bvar%20oMenu%20%3D%20document.createElement('div')%3Bvar%20mSpan%20%3D%20document.createElement('span')%3BoMenu.className%20%3D%20'modMenu'%3BoMenu.setAttribute('style'%2C'background-color%3A%232b2f40%3B%20color%3A%23c5c8d4%3B%20text-align%3Acenter%3B%20position%3A%20fixed%3B%20top%3A%200%3B%20left%3A%200%3B%20')%3BmSpan.innerHTML%20%3D%20%22All%20in%20one%20Menu%22%3Bdocument.body.appendChild(oMenu)%3BoMenu.appendChild(mSpan)%7D)()
+
+## Version 0.03.4:
+javascript:(function()%7Bvar oMenu %3D document.createElement('div')%3Bvar mSpan %3D document.createElement('span')%3BoMenu.setAttribute('style'%2C'background-color%3A%232b2f40%3B color%3A%23c5c8d4%3B text-align%3Acenter%3B position%3A absolute%3B top%3A 0%3B left%3A 0%3B display%3Ablock%3B ')%3BmSpan.innerHTML %3D "All in one Menu"%3BmSpan.setAttribute('style'%2C 'display%3Ablock%3B')%3Bdocument.body.appendChild(oMenu)%3BoMenu.appendChild(mSpan)%3Bvar googleCloak %3D document.createElement('BUTTON')%3Bvar googleCloakText %3D document.createTextNode('Google Cloak')%3BgoogleCloak.appendChild(googleCloakText)%3BoMenu.appendChild(googleCloak)%3BgoogleCloak.setAttribute('style'%2C 'display%3Ablock%3B')%7D)()
